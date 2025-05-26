@@ -21,19 +21,20 @@ func main() {
 }
 
 func ternapitagoricatrue(a, b, c int) bool {
-	fmt.Println(a, b, c)
-	x := (b * b) + (c * c)
-	y := a * a
+	x := (a * a) + (b * b)
+	y := c * c
 
 	return x == y
 }
 
 func ternepitagoriche(soglia int) {
-	for i := soglia; i > 3; i-- {
-		if ternapitagoricatrue(i, (i - 1), (i - 2)) {
-			fmt.Println("(", i-2, ",", i-1, ",", i, ")")
-		} else if (i-2 < 0) || (i-1 < 0) {
-			return
+	for a := 1; a < soglia-1; a++ {
+		for b := 1; b < soglia-1; b++ {
+			for c := b; c < soglia-1; c++ {
+				if ternapitagoricatrue(a, b, c) {
+					fmt.Println("(", a, ",", b, ",", c, ")")
+				}
+			}
 		}
 	}
 }
