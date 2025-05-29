@@ -1,4 +1,7 @@
 # unimi_L31R
+[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 A collection of lecture materials, excersises and general summaries or notes for the courses of the Computer Science for New Media Communications at Unimi.
 Each course is organized into its own folder for clarity and ease of use.
 
@@ -19,9 +22,6 @@ This repository includes content from multiple courses, such as:
 ---
 
 ## ⚖️ License
-[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 
 - 📚 **Notes and written materials** (Markdown, PDF, etc.) are licensed under the  
   [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).  
