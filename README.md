@@ -1,6 +1,7 @@
 # unimi_L31R
 A collection of lecture materials, excersises and general summaries or notes for the courses of the Computer Science for New Media Communications at Unimi.
 Each course is organized into its own folder for clarity and ease of use.
+
 **Note:** Most of the notes are written in *Italian*, as that is the language in which the courses were taught.
 
 ---
