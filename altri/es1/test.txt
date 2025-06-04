@@ -1,0 +1,4 @@
+Inserisci un testo su più righe (termina con CTRL+D): 
+Statistche ---
+Numero parole:  5 
+ Lunghezza media:  5

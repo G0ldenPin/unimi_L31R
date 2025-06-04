@@ -16,18 +16,15 @@ func main() {
 }
 
 func palindroma(s string) bool {
-	var check bool
-	if len(s)%2 == 0 {
-		for i := 0; i < len(s)/2; i++ {
-			for j := len(s) / 2; j >= 0; j-- {
-				if s[i] == s[j] {
-					check = true
-				}
+	runes := []rune(s)
+	length:= len(runes)
 
+	if len(runes)%2 == 0 {
+		for i:=0; i<length/2; i++ {
+			if runes[i] != runes[length-1-i] {
+				return false
 			}
 		}
-	} else {
-
 	}
-	return check
+	return true
 }

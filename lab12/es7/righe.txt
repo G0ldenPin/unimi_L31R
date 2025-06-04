@@ -1,0 +1,9 @@
+Questa è una riga
+Questa è una riga
+Questa è una riga in input
+Ogni riga viene immediatamente stampata
+Ogni riga viene stampata immediatamente
+
+
+Anche le righe vuote sono stampate
+LINGANGULIGULIGULIII

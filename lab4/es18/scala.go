@@ -10,25 +10,25 @@ func main() {
 	fmt.Print("Inserisci il numero di gradini: ")
 	fmt.Scan(&n)
 	stampaScala(n)
-	stampaGradino(n)
 
 }
 
 func stampaGradino(gradino int) {
 	larghezza := 3
 	altezza := 2
-	for x := 1; x <= gradino; x++ {
-		for y := 1; y <= larghezza; y++ {
-			fmt.Print("*")
-			for z := 1; z <= altezza; z++ {
-				strings.Repeat(" ", 2)
-				if y == z {
-					fmt.Println("*")
-				}
-			}
-		}
+
+	for i := 0; i < larghezza-1; i++ {
+		fmt.Print("* ")
+		fmt.Println()
+	}
+	for j := 0; j < altezza-1; j++ {
+		fmt.Print(strings.Repeat(" ", 2))
+
 	}
 }
 
 func stampaScala(gradini int) {
+	for i := 0; i < gradini; i++ {
+		stampaGradino(i)
+	}
 }
