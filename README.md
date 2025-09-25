@@ -19,10 +19,11 @@ This repository includes content from multiple courses, such as:
 ---
 
 ## ⚖️ License
+For whoever might want to use the code or other notes to expand their own and might plan to sell:
 
 - 📚 **Notes and written materials** (Markdown, PDF, etc.) are licensed under the  
   [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).  
-  You are free to use, share, and adapt the material, but **please give credit** to the original author.
+  You are free to use, share, and adapt the material , but **please give credit** to the original author.
 
 
 - 🧑‍💻 **Code files** are licensed under the [MIT License](LICENSE_CODE).  
